@@ -72,3 +72,43 @@ flex-direction: row;
     margin-top:5% !important;
  
 }
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.langdiv {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+@media (max-width: 600px) {
+
+    .LanguageHeading{
+        font-size:39px !important;
+        letter-spacing : 10px !important;
+    }
+    .random {
+        font-size : 20px;
+    }
+    .langP{
+        font-size:15px;
+    }
+
+    #a{
+        padding:10px;
+    }
+
+}
+
+
+body {
+    overflow-x: hidden;
+}

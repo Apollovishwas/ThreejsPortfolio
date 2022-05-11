@@ -3,6 +3,9 @@
     top: 0;
     left: 0;
     outline: none;
+    width: 100vh;
+    height: 100vh;
+
     mix-blend-mode: exclusion;
 }
 .sphereContainer {
@@ -11,11 +14,27 @@
     place-items: center;
 }
 
+.titles {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 body {
     font-family: 'Poppins';
     background-color: rgb(3, 3, 3);
     height: 100vh;
     overflow-x: hidden;
+}
+
+.myName{
+    letter-spacing: 25px;
+    margin-top: 40%;
+    font-size: 7rem;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
@@ -39,4 +58,20 @@ h2 {
     font-size: 20px;
     margin-top: 10%;
     color:white;
+}
+
+@media (max-width: 600px) {
+
+    .myName{
+        font-size:50px !important;
+        letter-spacing : 10px !important;
+    }
+    .titles {
+    margin-top: 30%;
+    }
+
+    .webgl {
+        height:100vh !important;
+        width:50vh !important;
+    }
 }

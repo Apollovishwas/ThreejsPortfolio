@@ -9,30 +9,30 @@ class Languages extends React.Component {
     return (
         <div className='Languages'>
             <div className='content'>
-            <div className='theWholeDivContainer'>
-            <div className="random animate__animated animate__pulse animate__infinite	animate__delay-2s" id="a">Python</div>
-    <div className="random extra animate__animated animate__pulse animate__infinite" id="a">Javascript</div>
-    <div className="random animate__animated animate__pulse animate__infinite animate__delay-2s" id="a">Java</div>
-    <div className="random animate__animated animate__pulse animate__infinite animate__delay-2s" id="a">Swift</div>
-    <div className="random " id="a">HTML</div>
+            <div className='theWholeDivContainer thelangdiv'>
+            <div className="random animate__animated animate__pulse animate__infinite	animate__delay-2s" id="a"><p className='langP'>Python</p></div>
+    <div className="random extra animate__animated animate__pulse animate__infinite" id="a"><p className='langP'>Javascript</p></div>
+    <div className="random animate__animated animate__pulse animate__infinite animate__delay-2s" id="a"><p className='langP'>Java</p></div>
+    <div className="random animate__animated animate__pulse animate__infinite animate__delay-2s" id="a"><p className='langP'>Swift</p></div>
+    <div className="random " id="a"><p className='langP'>HTML</p></div>
             </div>
 
-            <div className='theWholeDivContainerTwo'>
-            <div className="random extra animate__animated animate__pulse animate__infinite animate__delay-2s" id="a">Tensorflow</div>
-    <div className="random animate__animated animate__pulse animate__infinite animate__delay-2s" id="a">numpy</div>
-    <div className="random animate__animated animate__pulse animate__infinite animate__delay-2s" id="a">Java</div>
-    <div className="random animate__animated animate__pulse animate__infinite animate__delay-2s" id="a">pandas</div>
-    <div className="random animate__animated animate__pulse animate__infinite animate__delay-2s" id="a">Keras</div>
-    <div className="random extra animate__animated animate__pulse animate__infinite animate__delay-2s" id="a">typescript</div>
-    <div className="random animate__animated animate__pulse animate__infinite animate__delay-2s" id="a">opencv</div>
+            <div className='theWholeDivContainerTwo thelangdiv'>
+            <div className="random extra animate__animated animate__pulse animate__infinite animate__delay-2s" id="a"><p className='langP'>Tensorflow</p></div>
+    <div className="random animate__animated animate__pulse animate__infinite animate__delay-2s" id="a"><p className='langP'>numpy</p></div>
+    <div className="random animate__animated animate__pulse animate__infinite animate__delay-2s" id="a"><p className='langP'>Java</p></div>
+    <div className="random animate__animated animate__pulse animate__infinite animate__delay-2s" id="a"><p className='langP'>pandas</p></div>
+    <div className="random animate__animated animate__pulse animate__infinite animate__delay-2s" id="a"><p className='langP'>Keras</p></div>
+    <div className="random extra animate__animated animate__pulse animate__infinite animate__delay-2s" id="a"><p className='langP'>typescript</p></div>
+    <div className="random animate__animated animate__pulse animate__infinite animate__delay-2s" id="a"><p className='langP'>opencv</p></div>
             </div>
 
-            <div className='theWholeDivContainerThree'>
-            <div className="random" id="a">C++</div>
-    <div className="random animate__animated animate__pulse animate__infinite animate__delay-2s" id="a">Tableu</div>
-    <div className="random animate__animated animate__pulse animate__infinite animate__delay-2s" id="a">Firebase</div>
-    <div className="random animate__animated animate__pulse animate__infinite animate__delay-2s" id="a">MySQL</div>
-    <div className="random animate__animated animate__pulse animate__infinite animate__delay-2s" id="a">NLP</div>
+            <div className='theWholeDivContainerThree thelangdiv'>
+            <div className="random" id="a"><p className='langP'>C++</p></div>
+    <div className="random animate__animated animate__pulse animate__infinite animate__delay-2s" id="a"><p className='langP'>Tableu</p></div>
+    <div className="random animate__animated animate__pulse animate__infinite animate__delay-2s" id="a"><p className='langP'>Firebase</p></div>
+    <div className="random animate__animated animate__pulse animate__infinite animate__delay-2s" id="a"><p className='langP'>MySQL</p></div>
+    <div className="random animate__animated animate__pulse animate__infinite animate__delay-2s" id="a"><p className='langP'>NLP</p></div>
             </div>
 
 

@@ -15,7 +15,7 @@ export default function MainContainer() {
         <div className="sphereContainer">
        <div className="titles">
 
-       <h1>Vishwas</h1>
+       <h1 className='myName'>Vishwas</h1>
           <h2>
                 <Typical
                   loop={Infinity}

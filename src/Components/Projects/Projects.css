@@ -1,7 +1,7 @@
 .theProjectDiv{
-    background-color: black;
-    padding:50px;
-    display: flex;
+background-color: black;
+padding:50px;
+display: flex;
 flex-direction: column;
 margin-top:-6%;
 }
@@ -64,4 +64,48 @@ FaMailBulk {
 BsMouseFill 
 {
     color:white;
+}
+
+.theProjectDiv {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectList {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 600px) {
+    .ProjectTitle {
+
+
+    text-align:center;
+    margin-left:1%;
+    margin-top:5%;
+    font-size:60px;
+    letter-spacing: 10px;
+
+
+
+}
+.theProjectDiv {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
 }

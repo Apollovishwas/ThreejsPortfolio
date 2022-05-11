@@ -5,6 +5,10 @@
  font-size:100px;
  margin-right: 5%;
 }
+.theDesignDiv {
+display: flex;
+flex-direction: row;
+}
 
 
 
@@ -31,3 +35,19 @@
     border-radius: 5px;
 }
 
+@media (max-width: 600px) {
+    .theDesignDiv {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        }
+
+
+        .designTitle {
+           text-align: center;
+         font-size:60px;
+     
+        }
+
+}
